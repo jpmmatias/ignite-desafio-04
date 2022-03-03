@@ -4,7 +4,7 @@ import { FiEdit3, FiTrash } from 'react-icons/fi';
 import { Container } from './styles';
 import api from '../../services/api';
 
-type FoodTypes = {
+export type FoodTypes = {
 	available: boolean;
 	name: string;
 	image: string;
